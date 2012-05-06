@@ -1,6 +1,6 @@
 package org.carolineleung.algo;
 
-import org.carolineleung.algo.LinkedListAlgo.LinkedListNode;
+import org.carolineleung.data.LinkedListNode;
 import org.carolineleung.util.InputFactory;
 import org.junit.Test;
 

@@ -2,8 +2,7 @@ package org.carolineleung.util;
 
 import java.util.List;
 
-import org.carolineleung.algo.LinkedListAlgo;
-import org.carolineleung.algo.LinkedListAlgo.LinkedListNode;
+import org.carolineleung.data.LinkedListNode;
 
 import com.google.common.primitives.Ints;
 
