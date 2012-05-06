@@ -1,6 +1,6 @@
 package org.carolineleung.algo;
 
-public class SortAlgo {
+public class InPlaceSortThreeTypesData {
 
 	public static void inPlaceSortRGB(RgbObject a[]) {
 		int rIndex = 0;
