@@ -1,6 +1,7 @@
 package org.carolineleung.algo;
 
 import org.carolineleung.algo.LinkedListAlgo.LinkedListNode;
+import org.carolineleung.util.InputFactory;
 import org.junit.Test;
 
 public class LinkedListAlgoTest {
@@ -9,7 +10,7 @@ public class LinkedListAlgoTest {
 	public void testReverse() {
 		LinkedListAlgo linkedListAlgo = new LinkedListAlgo();
 
-		LinkedListNode testNode = LinkedListAlgo.createLinkedList(new int[] { 1, 2, 3, 4, 5, 6 });
+		LinkedListNode testNode = InputFactory.createLinkedList(new int[] { 1, 2, 3, 4, 5, 6 });
 		System.out.println(testNode);
 
 		LinkedListNode reverseNode = linkedListAlgo.reverse(testNode);
